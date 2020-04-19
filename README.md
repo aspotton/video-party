@@ -20,6 +20,12 @@ Add a new bookmark to your toolbar and copy/paste this as the URL:
 javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.src='https://cdn.adamspotton.com/js/video_party.js';document.getElementsByTagName('head')[0].appendChild(script);})();
 ```
 
+## Works On
+
+ * youtube.com
+ * netflix.com
+ * most websites
+
 ## Limitations
 
 Known to work on current versions of Chrome and Firefox. Won't work on some websites that have strict security policies in place like Twitter or Facebook since this isn't an extension, it's a bookmarklet.
