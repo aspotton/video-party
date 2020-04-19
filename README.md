@@ -13,6 +13,10 @@ Then click the bookmark button and enter a room name, share the room name with e
 
 You can click and drag the individual videos around the web page if they get in the way of the content.
 
+### Additional Options
+
+You can have the user auto join a specific room by adding it as a URL parameter, for example: https://cdn.adamspotton.com/js/video_party.js?room=the_room_id_to_join
+
 ## Bookmarklet
 
 Add a new bookmark to your toolbar and copy/paste this as the URL:
