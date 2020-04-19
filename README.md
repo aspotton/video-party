@@ -15,13 +15,9 @@ You can click and drag the individual videos around the web page if they get in 
 
 ## Bookmarklet
 
-<a href="javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.src='https://raw.githubusercontent.com/aspotton/video-party/master/video_party.js';document.getElementsByTagName('head')[0].appendChild(script);})();">Click and drag me onto your browser toolbar</a>
-
-OR
-
 Add a new bookmark to your toolbar and copy/paste this as the URL:
 ```
-javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.src='https://raw.githubusercontent.com/aspotton/video-party/master/video_party.js';document.getElementsByTagName('head')[0].appendChild(script);})();
+javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.src='https://cdn.adamspotton.com/js/video_party.js';document.getElementsByTagName('head')[0].appendChild(script);})();
 ```
 
 ## Limitations
