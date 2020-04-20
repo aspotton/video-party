@@ -48,7 +48,7 @@ function get_script_parameters() {
   jsQueryString = jsQueryString.match(qsReg);
 
   // If there is no query part to the request string
-  if (!jsQueryString) return;
+  if (!jsQueryString) return keyValues;
 
   jsQueryString = new String(jsQueryString);
   jsQueryString = jsQueryString.substr(1, jsQueryString.length - 1);
@@ -91,7 +91,7 @@ function toggle_fullscreen_mode() {
   else                                  { console.log("Fullscreen support not detected.");                                          }
 }
 
-init_web_video_room = function(init_web_video_room) {
+init_web_video_room = function() {
   var connection = new RTCMultiConnection();
   var room_streams = [];
 
